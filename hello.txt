@@ -1,2 +1,21 @@
 # Hello
 I added ReadMe there you goo
+
+What are the rules?
+
+To win a reward, you must sign up on the Hacktoberfest site and make four pull requests on any repositories classified with the hacktoberfest topic on GitHub by October 31. Additionally, any pull request with the hacktoberfest-accepted label, submitted to any public GitHub repository, with or without the hacktoberfest topic, will be considered valid for Hacktoberfest.Pull requests must then be merged or accepted by the maintainer of the project before November 1.
+
+
+Do pull requests have to be accepted/merged?
+
+Your pull requests will count toward your participation if they are in a repository with the hacktoberfest topic and once they have been merged, approved by a maintainer or labeled as hacktoberfest-accepted. Additionally, any pull request with the hacktoberfest-accepted label, submitted to any public GitHub repository, with or without the hacktoberfest topic, will be considered valid for Hacktoberfest.
+
+Do pull requests made on my own repositories count?
+
+﹢
+Yes, but we strongly encourage you to make quality contributions to other repositories.
+
+Do multiple pull requests to the same repository count?
+
+﹢
+Yes, each pull request will count separately.
