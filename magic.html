@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>prob 2</title>
+  </head>
+
+  <body>
+    <h1>
+      <h1>다음 빈 곳에 숨은 단어? <button>show/hide</button></h1>
+      <hr />
+    </h1>
+
+    <ul>
+      <li>I ( <span id="love"></span> ) you.</li>
+      <li>CSS is Cascading ( <span id="style"></span> ) Sheet.</li>
+      <li>응답하라 ( <span id="year"></span> ).</li>
+    </ul>
+
+    <script>
+      var btn = document.getElementsByTagName("button")[0];
+      var first = document.getElementById("love");
+      var second = document.getElementById("style");
+      var third = document.getElementById("year");
+
+      btn.onclick = function () {
+        if (first.innerHTML == "") {
+          first.innerHTML = "love";
+          first.style.color = "blue";
+        } else {
+          first.innerHTML = "";
+        }
+        if (second.innerHTML == "") {
+          second.innerHTML = "Style";
+          second.style.color = "blue";
+        } else {
+          second.innerHTML = "";
+        }
+        if (third.innerHTML == "") {
+          third.innerHTML = "1988";
+          third.style.color = "blue";
+        } else {
+          third.innerHTML = "";
+        }
+      };
+    </script>
+  </body>
+</html>
